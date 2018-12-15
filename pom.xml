@@ -7,25 +7,16 @@
         <artifactId>training-parent</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <groupId>com.dothings.training</groupId>
     <artifactId>training-register</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>training-register</name>
-    <description>Demo project for Spring Boot</description>
+    <description>服务注册中心</description>
 
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
         </dependency>
-        <dependency>
-            <groupId>com.dothings.training</groupId>
-            <artifactId>training-core</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
